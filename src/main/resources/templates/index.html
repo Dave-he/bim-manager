@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+        梁场生产管理信息系统
+    </title>
+    <link href="Themes/Default/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="Themes/Default/my_css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="Themes/Default/my_css/my.css" rel="stylesheet" type="text/css"/>
+    <script src="Themes/Default/bootstrap/js/jquery-1.11.0.min.js"></script>
+    <script src="Themes/Default/bootstrap/js/bootstrap.js"></script>
+    <!--[if gte IE 8]>
+    <script src="Themes/Default/bootstrap/js/html5shiv.js"></script>
+    <script src="Themes/Default/bootstrap/js/respond.js"></script>
+    <![endif]-->
+    <!-- 自定义内容头 -->
+
+</head>
+<body>
+<!-- Head -->
+<div class="hear_bg">
+    <div class="container">
+        <div id="hear" class="row">
+            <div class="col-md-4">
+                <a title="首页" href="index.aspx.htm">
+                    <div class="logo spH"></div>
+                </a>
+            </div>
+
+            <!-- 搜索 -->
+            <div class="col-md-4">
+                <form id="Search" name="Search" method="post" action="#">
+                    <p></p>
+                    <div class="input-group">
+                        <input type="text" name="SearchName" class="form-control">
+                        <span class="input-group-btn">
+                        <button type="submit" class="btn btn-success"><i
+                                class="glyphicon glyphicon-search"></i></button>
+                    </span>
+                    </div>
+                    <p></p>
+                </form>
+
+                <p class="spH zt12">
+                    <span class="spr"><a class="gray" target="_blank">北京市政路桥</a></span>
+                    <span class="spr"><a class="gray" target="_blank">预制梁场管理平台</a></span>
+                    <span class="spr"><a class="gray" target="_blank">BIM技术绿色施工</a></span>
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <div class="pull-right" style="width:100%;">
+                    <div class="pull-left" style="text-align:center;">
+                        <p></p>
+                        <h3>大兴区预制场</h3>
+                        <p style="margin-top:10px;">&nbsp;</p>
+                    </div>
+                    <p></p>
+
+                    <ul class="left_nav zt12 spH15 clearfix pull-right">
+                        <li><a target="_blank" href="Factory/Login.aspx.htm"><i class="glyphicon glyphicon-user"></i>
+                            用户登录</a>|
+                        </li>
+                        <li><a target="_blank" href="#"><i class="glyphicon glyphicon-question-sign"></i> 帮助信息</a></li>
+                    </ul>
+
+                    <p></p>
+                    <p class="zt12 text-muted pull-right"><i class="glyphicon glyphicon-earphone"></i>
+                        梁场电话：136-6301-9341</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+
+            <div id="hear_nav" class="col-md-12 r_15">
+                <!--导航菜单-->
+                <ul class="nav zt16">
+                    <li><a href="Index-1.aspx.htm">首页</a></li>
+                    <li><a href="Info01.aspx.htm">梁场概况</a></li>
+                    <li><a href="Info02.aspx.htm">梁场鸟瞰图</a></li>
+                    <li><a href="Info03.aspx.htm">进度更新</a></li>
+                    <li><a href="Info04.aspx.htm">工程图纸</a></li>
+                    <li><a href="Info05.aspx.htm">工程变更</a></li>
+                    <li><a href="Info06.aspx.htm">施工动画</a></li>
+                    <li><a href="Info07.aspx.htm">其他</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="nav-wrapper">
+            <div class="navMain">
+                <div class="header-logo">
+                    <div>
+                        <a href="index.htm">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="nav" id="nav">
+                    <ul class="left">
+
+                        <li><a href="xxgk/index.htm">学校概况</a>
+                            <div class="subNav">
+                                <dl>
+                                    <dd><a href="xxgk/xxjj/index.htm">学校简介</a></dd>
+                                    <dd><a href="xxgk/xxld/index.htm">学校领导</a></dd>
+                                    <dd><a href="xxgk/dxzc/index.htm">大学章程</a></dd>
+                                    <dd><a href="xxgk/xkjs/index.htm">学科建设</a></dd>
+                                    <dd><a href="xxgk/xxbs/index.htm">学校标识</a></dd>
+                                    <dd><a href="xxgk/tjzl/index.htm">统计资料</a></dd>
+                                    <dd><a href="xxgk/xyfg/index.htm">校园风光</a></dd>
+                                </dl>
+                            </div>
+                        </li>
+
+                        <li><a href="rcpy/index.htm">人才培养</a>
+                            <div class="subNav">
+                                <dl>
+                                    <dd><a href="http://rsc.ustb.edu.cn/szdw.asp" target="_blank">师资队伍</a></dd>
+                                    <dd><a href="http://www.ustb.edu.cn/rcpy/zmxz/index.htm" target="_blank">知名学者</a></dd>
+                                    <dd><a href="http://teach.ustb.edu.cn/" target="_blank">本科生教育</a></dd>
+                                    <dd><a href="http://gs.ustb.edu.cn/" target="_blank">研究生培养</a></dd>
+                                    <dd><a href="http://isc.ustb.edu.cn/" target="_blank">国际学生教育</a></dd>
+                                    <dd><a href="http://gc.ustb.edu.cn/" target="_blank">继续教育</a></dd>
+                                    <dd><a href="rcpy/jxjd/index.htm">教学基地</a></dd>
+                                    <dd><a href="http://202.204.62.245/ustbbth/index/" target="_blank">合作办学</a></dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li><a href="kxyj/index.htm" >科学研究</a>
+
+                            <div class="subNav">
+                                <dl>
+                                    <dd><a href="http://keyanchu.ustb.edu.cn/newslist.asp" target="_blank">科研动态</a></dd>
+                                    <dd><a href="http://keyanchu.ustb.edu.cn/articledetail.asp?cateID=33&boardAID=0&boardBID=0&ID=2435" target="_blank">科研基地</a></dd>
+                                    <dd><a href="kxyj/xzqk/index.htm">学术期刊</a></dd>
+                                    <dd><a href="http://www.ustbcm.com/" target="_blank">科技产业</a></dd>
+                                </dl>
+                            </div>
+                        </li>
+
+                        <li><a href="hzjl/index.htm">国际合作</a>
+                            <div class="subNav">
+                                <dl>
+                                    <dd><a href="http://oice.ustb.edu.cn/" target="_blank">国际交流</a></dd>
+                                    <dd><a href="http://www.dmu.ac.uk/about-dmu/confucius-institute/confucius-institute.aspx" target="_blank">孔子学院</a></dd>
+                                    <dd><a href="http://oice.ustb.edu.cn/yidaiyilu/" target="_blank">一带一路研究院</a></dd>
+                                    <dd><a href="http://isc.ustb.edu.cn/" target="_blank">国际学生</a></dd>
+                                </dl>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <ul class="right">
+
+                        <li><a href="zsjy/index.htm">招生就业</a>
+                            <div class="subNav">
+                                <dl>
+                                    <dd><a href="http://zhaosheng.ustb.edu.cn/" target="_blank">本科生招生</a></dd>
+                                    <dd><a href="http://yzxc.ustb.edu.cn/" target="_blank">研究生招生</a></dd>
+                                    <dd><a href="http://isc.ustb.edu.cn/cn/template.jsp?id=151" target="_blank">国际学生招生</a></dd>
+                                    <dd><a href="http://job.ustb.edu.cn/" target="_blank">就业信息网</a></dd>
+                                    <dd><a href="http://gc.ustb.edu.cn/" target="_blank">继续教育招生</a></dd>
+                                    <dd><a href="http://tj.ustb.edu.cn/" target="_blank">天津学院招生</a></dd>
+                                </dl>
+                            </div><strong></strong>
+                        </li>
+
+                        <li><a href="xywh/index.htm">校园文化</a>
+                            <div class="subNav">
+                                <dl>
+                                    <dd><a href="http://www.ustb.edu.cn/xxgk/xxjj/index.htm" target="_blank">辉煌校史</a></dd>
+                                    <dd><a href="http://shiyun.ustb.edu.cn/" target="_blank">大师雅韵</a></dd>
+                                    <dd><a href="http://gonghui.ustb.edu.cn/" target="_blank">教工之家</a></dd>
+                                    <dd><a href="http://student.ustb.edu.cn/" target="_blank">学子在线</a></dd>
+                                    <dd><a href="http://graduate.ustb.edu.cn/" target="_blank">研途有我</a></dd>
+                                    <dd><a href="http://5470.ustb.edu.cn/" target="_blank">贝壳青年</a></dd>
+                                    <dd><a href="http://ltx.ustb.edu.cn/" target="_blank">金色园地</a></dd>
+                                    <dd><a href="http://sports.ustb.edu.cn/" target="_blank">贝壳体育</a></dd>
+                                    <dd><a href="http://www.ibeike.com/" target="_blank">爱北科</a></dd>
+                                </dl>
+                            </div><strong></strong>
+
+                        </li>
+                        <!--
+                          <li><a href="yxbm/index.htm">院系部门</a>
+                            <div class="subNav">
+                                <dl>
+                                                                                                                                                <dd><a href="yxbm/yxsz/index.htm#1">学院总览</a></dd>
+                                                                                                                                                <dd><a href="yxbm/dzbm/index.htm#2">党政部门</a></dd>
+                                                                                                                                                <dd><a href="yxbm/zzjg/index.htm#3">直属单位</a></dd>
+                                                                                                                                                                                </dl>
+                            </div><strong></strong>
+                        </li>
+                        -->
+
+                        <li><a href="yxbm/index.htm">院系部门</a>
+                            <div class="subNav">
+                                <dl>
+                                    <dd><a href="yxbm/index.htm?mao=p01">学院总览</a></dd>
+                                    <dd><a href="yxbm/index.htm?mao=p02">党政部门</a></dd>
+                                    <dd><a href="yxbm/index.htm?mao=p03">直属单位</a></dd>
+
+                                </dl>
+                            </div><strong></strong>
+                        </li>
+
+                        <li><a href="yhtd/jzg/index.htm" >公共服务</a>
+                            <div class="subNav">
+                                <dl>
+                                    <dd><a href="http://oacheck.ustb.edu.cn/" target="_blank">校园OA</a></dd>
+                                    <dd><a href="http://lib.ustb.edu.cn/" target="_blank">图书馆</a></dd>
+                                    <dd><a href="http://e.ustb.edu.cn/" target="_blank">信息门户</a></dd>
+                                    <dd><a href="http://mail.ustb.edu.cn/" target="_blank">电子邮件</a></dd>
+                                    <dd><a href="http://n.ustb.edu.cn" target="_blank">VPN</a></dd>
+                                    <dd><a href="http://www.ustb.edu.cn/yhtd/jzg/index.htm">更多......</a></dd>
+                                </dl>
+                            </div><strong></strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- 自定义内容区 -->
+
+<!-- 广告 -->
+<div class="container">
+    <div class="row spH15">
+        <div class="col-md-12">
+            <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#carousel-example-generic"></li>
+                    <li data-slide-to="1" data-target="#carousel-example-generic" class=""></li>
+                    <li data-slide-to="2" data-target="#carousel-example-generic" class=""></li>
+                    <li data-slide-to="3" data-target="#carousel-example-generic" class=""></li>
+                    <li data-slide-to="4" data-target="#carousel-example-generic" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <!--AD_1-->
+                        <a href="#"> <img class="img-responsive" src="Themes/Default/img/ad1.jpg"> </a>
+                        <!--EndAD-->
+                        <div class="carousel-caption"></div>
+                    </div>
+
+                    <div class="item">
+                        <!--AD_2-->
+                        <a href="#"> <img class="img-responsive" src="Themes/Default/img/ad2.jpg"> </a>
+                        <!--EndAD-->
+                        <div class="carousel-caption"></div>
+                    </div>
+
+                    <div class="item">
+                        <!--AD_2-->
+                        <a href="#"> <img class="img-responsive" src="Themes/Default/img/ad3.jpg"> </a>
+                        <!--EndAD-->
+                        <div class="carousel-caption"></div>
+                    </div>
+
+                    <div class="item">
+                        <!--AD_2-->
+                        <a href="#"> <img class="img-responsive" src="Themes/Default/img/ad4.jpg"> </a>
+                        <!--EndAD-->
+                        <div class="carousel-caption"></div>
+                    </div>
+
+                    <div class="item">
+                        <!--AD_2-->
+                        <a href="#"> <img class="img-responsive" src="Themes/Default/img/ad5.jpg"> </a>
+                        <!--EndAD-->
+                        <div class="carousel-caption"></div>
+                    </div>
+
+                </div>
+                <a data-slide="prev" href="#carousel-example-generic" class="left carousel-control"> <span
+                        class="glyphicon glyphicon-chevron-left"></span> </a> <a data-slide="next"
+                                                                                 href="#carousel-example-generic"
+                                                                                 class="right carousel-control"> <span
+                    class="glyphicon glyphicon-chevron-right"></span> </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer container spH15">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="cnt clearfix">
+                <div class="footercont">
+                    <ul class="nums clearfix">
+                        <li>
+                            <a href="#">
+                                <p><label> 安全优质&nbsp;&nbsp;兴路强国 </label></p>
+                                <p><label> 绿色施工&nbsp;&nbsp;智慧工厂 </label></p>
+                            </a>
+                        </li>
+
+                        <li class="line"> |</li>
+
+                        <li>
+                            <a href="#">
+                                <p><label> 依法合规&nbsp;&nbsp;按标施作 </label></p>
+                                <p><label> 精益打造&nbsp;&nbsp;严守标准 </label></p>
+                            </a>
+                        </li>
+
+                        <li class="line"> |</li>
+
+                        <li>
+                            <a href="#">
+                                <p><label> 勇于跨越&nbsp;&nbsp;追求卓越 </label></p>
+                                <p><label> 知行合一&nbsp;&nbsp;永争第一 </label></p>
+                            </a>
+                        </li>
+
+                        <li class="line"> |</li>
+
+                        <li>
+                            <a href="#">
+                                <p><label> 集团标杆&nbsp;&nbsp;股份先进 </label></p>
+                                <p><label> 行业知名&nbsp;&nbsp;专业引领 </label></p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="service clearfix">
+                        <!--调用帮助标签,直接生成帮助代码-->
+                        <dl>
+                            <dt>关于我们</dt>
+                            <dd><a title="联系我们" href="#">&gt; 联系我们</a></dd>
+                            <dd><a title="公司简介" href="#">&gt; 公司简介</a></dd>
+                        </dl>
+
+                        <dl>
+                            <dt>预制工艺</dt>
+                            <dd><a title="箱梁预制工艺" href="#">&gt; 箱梁预制工艺</a></dd>
+                            <dd><a title="T梁预制工艺" href="#">&gt; T梁预制工艺</a></dd>
+                        </dl>
+
+                        <dl>
+                            <dt>安全生产制度</dt>
+                            <dd><a title="安全生产内部管理制度" href="#">&gt; 安全生产内部管理制度</a></dd>
+                            <dd><a title="安全生产日常会议制度" href="#">&gt; 安全生产日常会议制度</a></dd>
+                            <dd><a title="安全生产教育培训制度" href="#">&gt; 安全生产教育培训制度</a></dd>
+                            <dd><a title="安全生产现场检查制度" href="#">&gt; 安全生产现场检查制度</a></dd>
+                        </dl>
+
+                        <dl>
+                            <dt>常用表格下载</dt>
+                            <dd><a title="办公用表" href="#">&gt; 办公用表</a></dd>
+                            <dd><a title="试验用表" href="#">&gt; 试验用表</a></dd>
+                            <dd><a title="自检表" href="#">&gt; 自检表</a></dd>
+                            <dd><a title="技术档案表" href="#">&gt; 技术档案表</a></dd>
+                        </dl>
+
+                        <!--客服中心-->
+                        <div class="online">
+                            <ul>
+                                <li class="item1"><i class="glyphicon glyphicon-phone-alt"></i> 136-6301-9341</li>
+                                <li class="item2"> 值守负责人：朱晓滨</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                友情链接：
+                <a target="_blank" title="中国铁道科学研究院">中国铁道科学研究院</a> <em></em>
+                <a target="_blank" title="中国铁路总公司">中国铁路总公司</a> <em></em>
+                <a href="#" target="_self" title="管理员">线路管理员</a> <em></em>
+                <a href="#" target="_self" title="系统管理员">系统管理员</a>
+
+                <p>Copyright© 2015-2016 China Academy of Railway Sciences All Rights Reserved.&nbsp;&nbsp;
+                    版权所有：中国铁道科学研究院 <a target="_blank">京ICP备1200000号-1</a></p>
+            </div>
+            <div class="believe">
+                <a target="_blank" href="#"> <img width="128" height="47" src="Themes/Default/img/cnnicVerifyseal.png">
+                </a>
+                <a target="_blank" href="#"> <img width="128" height="47" src="Themes/Default/img/szfwVerifyseal.gif">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
